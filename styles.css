@@ -1,0 +1,80 @@
+/* The * is for all elements in the html. And what I put helps reset the page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../assets/brooke-lark-4J059aGa5s4-unsplash\ 1\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container h1 {
+    color:#026E78;
+    font-size: 48px;
+}
+
+.header-top p {
+    color: white;
+    font-size: 36px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #2D99A4;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px 25px;
+    display: flex;
+    flex-grow: 1;  
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.home-link {
+    background-color: white;
+}
+
+.home-link a {
+    color:#026E78;
+    
+}
+
+.bookme-link {
+    background-color: #0E727B;
+}
+
